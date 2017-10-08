@@ -45,7 +45,7 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
-    new UglifyJSPlugin(),
+    // new UglifyJSPlugin(),
     new HtmlWebpackPlugin({
       title: 'Webpack Demo',
       template: 'index.html',
